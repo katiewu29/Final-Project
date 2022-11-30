@@ -1,0 +1,58 @@
+
+/* header styling */
+/*later on add changes to nav bar w media queries? */
+nav li{
+    display:inline;
+    padding-right:30px;
+  
+  }
+  
+  nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  nav{
+    background-color: rgb(24, 129, 96);
+    padding: 25px 0; 
+    text-align: right;
+  }
+  
+
+  /* footer styling */
+  footer{
+    background-color: rgb(24, 129, 96);
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+.grid-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+
+div img{
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+}
+
+/*add captions to images*/
+/* add some other changes? like maybe the margin bewteen images for full credit?? */
+
+@media screen and (min-width: 600px){
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 900px){
+    .grid-container{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
