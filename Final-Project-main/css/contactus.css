@@ -1,0 +1,27 @@
+
+ #contactus a{
+    color: #70F5FF; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; 
+}
+
+.card{
+    margin: 20px;
+}
+
+.card p{
+    list-style: none;
+    text-align:center;
+   
+}
+.card h2{
+    width: 100%;
+    text-align: center;
+}

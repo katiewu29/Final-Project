@@ -1,0 +1,45 @@
+ 
+body{
+    font-family: 'Poppins', serif;
+}
+nav li{
+    display:inline;
+    padding-right:30px;
+  
+  }
+  
+  nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+  }
+  
+  nav{
+    background-color: #07694C;
+    padding: 25px 0; 
+    text-align: center;
+  }
+
+
+/* footer styling */
+ footer{
+    background-color: #07694C;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+  }
+
+  
+@media screen and (min-width: 600px){
+    nav{
+        text-align: left;
+    }
+
+}
+
+@media screen and (min-width: 900px){
+    nav{
+        text-align:right;
+    }
+  
+}
