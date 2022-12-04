@@ -5,13 +5,11 @@
     text-decoration: underline;
 }
 
-.sloth{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    height: auto;
-    overflow: hidden;
+
+#slothpic{
+    display:none;
 }
+
 .sloth img{
     /*make images equal size but they stretch together*/
     width: 100%;
@@ -41,14 +39,27 @@ p:first-of-type{
 }
 
 @media screen and (min-width: 800px){
-    .sloth img{
-        width: 50%;
-        
+    .sloth{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
+        overflow: hidden;
     }
+    
+    #slothpic{
+        display: block;
+    }
+ 
  
 }
 
 @media screen and (min-width: 1200px){
- 
+ .sloth{
+    flex-direction: row; 
+ }
+ .sloth img{
+    width: 50%;
+}
 
 }

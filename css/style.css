@@ -2,9 +2,21 @@
 body{
     font-family: 'Poppins', serif;
 }
+
+/* HELP WITH MAKING THIS SHOW UP*/
+.maincontent{
+  position: absolute;
+  top: -50px;
+}
+
+.maincontent a:focus{
+  position:relative; 
+  top: 30px;
+}
 nav li{
     display:inline;
     padding-right:30px;
+    white-space: nowrap; 
   
   }
   
@@ -30,16 +42,17 @@ nav li{
   }
 
   
-@media screen and (min-width: 600px){
+@media screen and (min-width: 800px){
     nav{
         text-align: left;
     }
 
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1200px){
     nav{
         text-align:right;
     }
+
   
 }

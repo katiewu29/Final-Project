@@ -7,8 +7,9 @@
 }
 .grid-container {
     display: grid; 
-    grid-template-columns: 1fr 1fr;
-    margin: 10px;
+    grid-template-columns: 50% 50%;
+    row-gap: 5px;
+    column-gap: 5px;
 }
 
 
@@ -23,12 +24,16 @@ div img{
 
 @media screen and (min-width: 800px){
     .grid-container{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 33% 33% 33%;
+        row-gap: 15px;
+        column-gap: 15px;
     }
 }
 
 @media screen and (min-width: 1200px){
     .grid-container{
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 20px;
+    column-gap: 20px;
     }
 }
