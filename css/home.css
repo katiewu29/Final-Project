@@ -5,7 +5,6 @@
     text-decoration: underline;
 }
 
-
 #slothpic{
     display:none;
 }
@@ -23,6 +22,7 @@ h2{
 p:first-of-type{
     text-align: center;
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -37,6 +37,44 @@ p:first-of-type{
     object-fit:cover;
     margin: 10px;
 }
+
+/* Style the form element with a border around it */
+form {
+    border: 4px solid #f1f1f1;
+  }
+  
+  /* Add some padding and a grey background color to containers */
+  .container {
+    padding: 20px;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the input elements*/
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  label{
+    display: block;
+    float: left;
+  }
+  .container{
+    text-align: center;
+  }
+  
+  /* Styling submit button */
+  input[type=submit] {
+    width: 50%;
+    background-color: #07694C;
+    color: white;
+    border: none;
+  }
+  
 
 @media screen and (min-width: 800px){
     .sloth{

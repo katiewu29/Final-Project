@@ -25,3 +25,22 @@
     width: 100%;
     text-align: center;
 }
+
+#map{
+    overflow: hidden;
+    position: relative;
+    height: 0px;
+    padding-bottom: 50%;
+}
+
+#map iframe{
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+h2:last-of-type{
+    text-align: center;
+}
