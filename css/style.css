@@ -4,16 +4,14 @@ body{
 }
 
 /* HELP WITH MAKING THIS SHOW UP*/
-.maincontent {
-  height: 30px;
-  left: 10px;
-  padding: 8px;
-  position: relative;
-  transform: translateY(-100%);
+.maincontent a{
+  position: absolute;
+  top: -200px;
 }
 
-.maincontent:focus {
-  transform: translateY(0%);
+.maincontent a:focus {
+  top: 30px;
+  right: 30px;
 }
 
 nav li{
